@@ -1,0 +1,52 @@
+body {
+    /*background-image: url(/images/websitebackground.png);
+    background-size:160%;
+    background-position: center*/
+    background-color: black;
+    overflow-x: auto;
+    scroll-behavior: smooth;
+    
+    overflow-y: hidden;
+}
+
+#pagebase {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start; 
+  height: 100vh;           
+  z-index: -500;
+}
+
+#logo {
+  margin-top: -500px;
+  margin-left: 500px;
+}
+
+#mainconainer {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    height: 700px;
+    width: 1024px;
+}
+
+#move-logos {
+  height: 600px;
+  width: 800px;
+  /* position: absolute; */
+  top: 0px;
+  left: 200px;
+  /* border: solid 1px white; */
+}
+/* 
+.border-placeholder {
+  border: solid 1px orange;
+} */
+
+#cards1 {
+  position: relative;
+  display: flex;
+  left: 2900px;
+  top: -1000px;
+
+}

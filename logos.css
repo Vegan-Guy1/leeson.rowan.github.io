@@ -1,0 +1,124 @@
+
+#slidingelementhk {
+    display:inline-block;
+    transition: transform 0.3s ease-in-out;
+    
+}
+
+#slidingelementhk {
+  position:fixed;
+  margin: top -300px;
+  margin-left:-230px;
+  top: 150px;
+}
+
+#slidingelementhk:hover {
+  transform: translate(225px, 0px);
+}
+
+#slidingelementuf {
+  display:inline-block;
+  transition: transform 0.3s ease-in-out;
+  
+}
+
+#slidingelementuf {
+position: fixed;
+top: 200px;
+margin-left:-230px;
+top: 10px;
+}
+
+#slidingelementuf:hover {
+transform: translate(225px, 0px);
+}
+
+#slidingelementpy {
+    display:inline-block;
+    transition: transform 0.3s ease-in-out;
+    
+  }
+  
+#slidingelementpy {
+position: fixed;
+top: 300px;
+z-index: -2px;
+left: -300;
+margin-left:-240px;
+}
+  
+#slidingelementpy:hover {
+transform: translate(235px, 0px);
+}
+ 
+#slidingelementcom {
+    display:inline-block;
+    transition: transform 0.3s ease-in-out;
+    
+  }
+  
+#slidingelementcom {
+position: fixed;
+top: 0px;
+left: -300;
+margin-left:-310px;
+top: 550px;
+}
+  
+#slidingelementcom:hover {
+transform: translate(295px, 0px);
+}
+
+#slidingelementmc {
+  display:inline-block;
+  transition: transform 0.3s ease-in-out;
+  
+}
+
+#slidingelementmc {
+position: fixed;
+top: 0px;
+left: -300;
+margin-left:-310px;
+top: 670px;
+}
+
+#slidingelementmc:hover {
+transform: translate(295px, 0px);
+}
+
+
+
+
+/* page stuff */
+#pagebase {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+ }
+ 
+ #dragonlogo {
+   display: flex;
+   flex-direction: column;
+   -ms-flex-align: center;
+ }
+ 
+ #dragonlogobackboard {
+   display: flex;
+   justify-content: center;
+   z-index: -1;
+ }
+ 
+ #backgroundfuture {
+   display: flex;
+   justify-content: center;
+   z-index: -5;
+ }
+ 
+ #minilogo {
+   position: fixed;
+   display: flex;
+   justify-content: center;
+   z-index: 10;
+ }
