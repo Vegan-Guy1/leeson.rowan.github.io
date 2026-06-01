@@ -22,7 +22,7 @@ Nav elements start */
 }
 
 #slidingelementhk {
-  position:fixed;
+  position: fixed;
   margin: top -300px;
   margin-left:-830px;
   top: 150px;
@@ -139,17 +139,119 @@ End of nav elements */
    top: -100px;
    left: -140px;
  }
+
  
  #minilogo {
 position: relative;
   display: flex;
 justify-content: center;
 margin-top: -2200px;
+
+scale: 1;
+transition: all 0.3s ease-in-out;
  }
 
+#minilogo:hover{
+  transition-duration: .2s;
+transition-delay: 2;
+scale: 1.03
+}
 
-#boder-placeholder{
-  position: relative;
+
+#border-placeholder{
+  position: fixed;
   display: flex;
   justify-content: center;
 }
+
+#banner{
+  position: relative;
+  display: flex;
+  justify-content: center;
+  border: rgba(72, 242, 170, 0.75)  solid 7px;
+  left: -65px;
+  z-index: -5;
+  top: -219px;
+}
+
+#aboutme{
+  position: relative;
+  display: flex;
+  justify-content: center;
+  top: -200px;
+  scale: 1;
+  transition: all 0.7s ease-in-out;
+   }
+  
+  #aboutme:hover{
+    transition-duration: .2s;
+  transition-delay: 2;
+  scale: 1.03
+  }
+
+#eyes{
+  position: relative;
+  display: flex;
+  justify-content: center;
+  top: -600px;
+  left: 700px;
+  border: rgba(72, 242, 170, 0.75)  solid 7px;
+  scale: 1;
+  transition: all 0.7s ease-in-out;
+   }
+  
+  #eyes:hover{
+    transition-duration: .2s;
+  transition-delay: 2;
+  scale: 1.03
+  }
+
+#reunicard{
+  position: relative;
+  display: flex;
+  justify-content: center;
+ top: -500px;
+ left: 100px;
+ scale: 1;
+ transition: all 0.7s ease-in-out;
+  }
+ 
+ #reunicard:hover{
+   transition-duration: .2s;
+ transition-delay: 2;
+ scale: 1.4
+ }
+
+#currentwork{
+  position: relative;
+  display: flex;
+  justify-content: center;
+  top: -900px;
+  left: 700px;
+  scale: 1;
+transition: all 0.7s ease-in-out;
+ }
+
+#currentwork:hover{
+  transition-duration: .2s;
+transition-delay: 2;
+scale: 1.03
+}
+
+
+#logos{
+  position: relative;
+  display: flex;
+  justify-content: center;
+  top: -700px;
+  left: 100px;
+  scale: 1;
+transition: all 0.7s ease-in-out;
+ }
+
+#logos:hover{
+  transition-duration: .2s;
+transition-delay: 2;
+scale: 1.09
+}
+
