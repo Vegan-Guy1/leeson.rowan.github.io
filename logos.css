@@ -138,15 +138,14 @@ End of nav elements */
    z-index: -5;
    top: -100px;
    left: -140px;
+  
  }
-
  
  #minilogo {
 position: relative;
   display: flex;
 justify-content: center;
-margin-top: -2200px;
-
+margin-top: -2500px;
 scale: 1;
 transition: all 0.3s ease-in-out;
  }
@@ -164,6 +163,7 @@ scale: 1.03
   justify-content: center;
 }
 
+/* Home */
 #banner{
   position: relative;
   display: flex;
@@ -199,12 +199,6 @@ scale: 1.03
   scale: 1;
   transition: all 0.7s ease-in-out;
    }
-  
-  #eyes:hover{
-    transition-duration: .2s;
-  transition-delay: 2;
-  scale: 1.03
-  }
 
 #reunicard{
   position: relative;
@@ -255,3 +249,71 @@ transition-delay: 2;
 scale: 1.09
 }
 
+/* Pyre */
+#pyrehex{
+  position: relative;
+  display: flex;
+  justify-content: center;
+  top: -150px;
+  left: -400px;
+  scale: 1;
+transition: all 0.7s ease-in-out;
+ }
+
+#pyrehex:hover{
+  transition-duration: .2s;
+transition-delay: 2;
+scale: 1.03
+}
+
+#grouppyre{
+  position: relative;
+  display: flex;
+  justify-content: center;
+  top: -600px;
+  left: 400px;
+  border: rgba(72, 242, 170, 0.75)  solid 7px;
+}
+
+#airbattlepyre{
+  position: relative;
+  display: flex;
+  justify-content: center;
+  top: 00px;
+  left: 285px;
+  border: rgba(72, 242, 170, 0.75)  solid 7px;
+}
+
+#quollvines{
+  position: relative;
+  display: flex;
+  justify-content: center;
+  top: -1200px;
+  left: 385px;
+  border: rgba(72, 242, 170, 0.75)  solid 7px;
+}
+
+#books{
+  position: relative;
+  display: flex;
+  justify-content: center;
+  top: -1200px;
+  left: -350px;
+  scale: 1;
+  transition: all 0.7s ease-in-out;
+   }
+  
+  #books:hover{
+    transition-duration: .2s;
+  transition-delay: 2;
+  scale: 1.03
+  }
+
+  #grouppyrestanding{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    top: -3200px;
+    left: -325px;
+    border: rgba(72, 242, 170, 0.75)  solid 7px;
+  }
