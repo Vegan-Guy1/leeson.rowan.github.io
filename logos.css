@@ -4,7 +4,7 @@ body {
   background-size:160%;
   background-position: center*/
   background-color: black;
-  overflow-x: hidden;
+  /* overflow-x: hidden; */
   scroll-behavior: smooth;
   display: flex;
   justify-content: center;
@@ -102,53 +102,50 @@ top: 670px;
 #slidingelementmc:hover {
 transform: translate(295px, 0px);
 }
+
+#move-logos{
+  position: fixed;
+  left: 600px;
+}
 /* 
 End of nav elements */
 
 
 /* page stuff */
-#pagebase {
-  position: relative;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  
-
- }
- 
  #dragonlogo {
+  position: relative;
    display: flex;
-   flex-direction: column;
-   -ms-flex-align: center;
-
+   top: -700px;
+   left: -1530px;
  }
  
  #dragonlogobackboard {
   position: relative; 
   display: flex;
-   flex-direction: column;
-  top: -2200px;
-   z-index: -1;
+ z-index: -50;
+ top: -3400px;
+ left: -500px;
  }
  
  #backgroundfuture {
   position: relative; 
   display: flex;
    justify-content: center;
-   z-index: -5;
-   top: -100px;
-   left: -140px;
-  
- }
+   z-index: -50;
+   top: -500px;
+   left: -1570px;
+}
  
- #minilogo {
+#minilogo {
 position: relative;
-  display: flex;
+display: flex;
 justify-content: center;
-margin-top: -2500px;
+top: -3200px;
+left: -2100px;
+
 scale: 1;
 transition: all 0.3s ease-in-out;
- }
+}
 
 #minilogo:hover{
   transition-duration: .2s;
@@ -158,9 +155,17 @@ scale: 1.03
 
 
 #border-placeholder{
-  position: fixed;
+  position: relative;
   display: flex;
   justify-content: center;
+}
+
+.page{
+  position: relative;
+  display: flex;
+  justify-content: center;
+  top: 700px;
+  left: 1500px;
 }
 
 /* Home */
@@ -170,7 +175,7 @@ scale: 1.03
   justify-content: center;
   border: rgba(72, 242, 170, 0.75)  solid 7px;
   left: -65px;
-  z-index: -5;
+  z-index: 5;
   top: -219px;
 }
 
@@ -247,6 +252,13 @@ transition: all 0.7s ease-in-out;
   transition-duration: .2s;
 transition-delay: 2;
 scale: 1.09
+}
+
+.homepage{
+  position: relative;
+  display: flex;
+  top: -100px;
+  left: 500px;
 }
 
 /* Pyre */
