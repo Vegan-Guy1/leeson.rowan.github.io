@@ -4,7 +4,7 @@ body {
   background-size:160%;
   background-position: center*/
   background-color: black;
-  /* overflow-x: hidden; */
+  overflow-x: hidden;
   scroll-behavior: smooth;
   display: flex;
   justify-content: center;
@@ -106,6 +106,7 @@ transform: translate(295px, 0px);
 #move-logos{
   position: fixed;
   left: 600px;
+  z-index: 500;
 }
 /* 
 End of nav elements */
@@ -132,7 +133,7 @@ End of nav elements */
   display: flex;
    justify-content: center;
    z-index: -50;
-   top: -500px;
+   top: -800px;
    left: -1570px;
 }
  
@@ -152,7 +153,6 @@ transition: all 0.3s ease-in-out;
 transition-delay: 2;
 scale: 1.03
 }
-
 
 #border-placeholder{
   position: relative;
@@ -175,8 +175,8 @@ scale: 1.03
   justify-content: center;
   border: rgba(72, 242, 170, 0.75)  solid 7px;
   left: -65px;
-  z-index: 5;
-  top: -219px;
+  z-index: -1;
+  top: -210px;
 }
 
 #aboutme{
@@ -254,11 +254,20 @@ transition-delay: 2;
 scale: 1.09
 }
 
+#ironlaservs{
+  position: relative;
+  display: flex;
+  justify-content: center;
+  top: -1100px;
+  left: 700px;
+  border: rgba(72, 242, 170, 0.75)  solid 7px;
+}
+
 .homepage{
   position: relative;
   display: flex;
-  top: -100px;
-  left: 500px;
+  top: -2490px;
+  left: 65px;
 }
 
 /* Pyre */
@@ -329,3 +338,152 @@ scale: 1.03
     left: -325px;
     border: rgba(72, 242, 170, 0.75)  solid 7px;
   }
+
+  .pyrepage{
+    position: relative;
+    display: flex;
+    top: -2500px;
+    left: 80px;
+  }
+
+  /* unfathomable future */
+
+  #megacybrese{
+    position: relative;
+    display: flex;
+    top: -2600px;
+    left: 800px;
+  }
+
+  #futurepokemon{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    top: -3100px;
+    left: 20px;
+    scale: 1;
+    transition: all 0.7s ease-in-out;
+     }
+    
+    #futurepokemon:hover{
+      transition-duration: .2s;
+    transition-delay: 2;
+    scale: 1.03
+    }
+
+  #iron{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    top: -2900px;
+    left: 850px;
+    scale: 1;
+    transition: all 0.7s ease-in-out;
+     }
+    
+    #iron:hover{
+      transition-duration: .2s;
+    transition-delay: 2;
+    scale: 1.03
+    }
+
+    #leftbutton{
+      position: relative;
+      display: flex;
+      justify-content: center;
+      top: -3230px;
+      left: 210px;
+      scale: 1;
+      transition: all 0.7s ease-in-out;
+       }
+      
+      #leftbutton:hover{
+        transition-duration: .2s;
+      transition-delay: 2;
+      scale: 1.03
+      }
+
+    #rightbutton{
+      position: relative;
+      display: flex;
+      justify-content: center;
+      top: -3330px;
+      left: 530px;
+      scale: 1;
+      transition: all 0.7s ease-in-out;
+       }
+      
+      #rightbutton:hover{
+        transition-duration: .2s;
+      transition-delay: 2;
+      scale: 1.03
+      }
+
+      #scroller{
+        position: relative;
+        display: flex;
+        justify-content: center;
+        top: -3600px;
+        left: 10px;
+        z-index: -5;
+        scale: 1;
+        transition: all 0.7s ease-in-out;
+         }
+    
+         #wallowisp{
+          position: relative;
+          display: flex;
+          justify-content: center;
+          top: -3550px;
+          left: 10px;
+          scale: 1;
+          transition: all 0.7s ease-in-out;
+           }
+          
+          #wallowisp:hover{
+            transition-duration: .2s;
+          transition-delay: 2;
+          scale: 1.03
+          }
+
+          #wallowcards{
+            position: relative;
+            display: flex;
+            justify-content: center;
+            top: -4200px;
+            left: 750px;
+            scale: 1;
+            transition: all 0.7s ease-in-out;
+             }
+            
+            #wallowcards:hover{
+              transition-duration: .2s;
+            transition-delay: 2;
+            scale: 1.30
+            }
+
+            #cyber{
+              position: relative;
+              display: flex;
+              justify-content: center;
+              top: -4000px;
+              
+               }
+
+/* HKD&D */
+
+#asset25{
+  position: relative;
+  display: flex;
+  justify-content: center;
+  top: -900px;
+  left: 750px;
+  scale: 1;
+  transition: all 0.7s ease-in-out;
+   }
+  
+  #asset25:hover{
+    transition-duration: .2s;
+  transition-delay: 2;
+  scale: 1.30
+  }               
